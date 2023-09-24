@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Clean Water for Children",
+    "category_name": "Health",
+    "Donate": "$500.00",
+    "category_description": "Our campaign is dedicated to providing access to clean water for underprivileged children, ensuring their health and well-being. We firmly believe that access to clean water is a fundamental right, and our mission is to make a meaningful difference in the lives of these young ones."
+  },
+  {
+    "id": 2,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Education Support for Underprivileged Youth",
+    "category_name": "Education",
+    "Donate": "$350.00",
+    "category_description": "We are committed to supporting underprivileged youth on their educational journey. Education is the key to a brighter future, and your contribution can have a significant impact on their lives. Join us in empowering these young minds."
+  },
+  {
+    "id": 3,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Healthcare for Elderly Residents",
+    "category_name": "Health",
+    "Donate": "$300.00",
+    "category_description": "In this campaign, we provide essential healthcare services to elderly residents, allowing them to live a healthy and fulfilling life during their golden years. Your support ensures their well-being and comfort as they age gracefully."
+  },
+  {
+    "id": 4,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Food Supplies for Rural Communities",
+    "category_name": "Food",
+    "Donate": "$400.00",
+    "category_description": "We supply much-needed food to rural communities, addressing their nutritional needs and ensuring that hunger is alleviated. Your contribution helps us combat food insecurity in these underserved regions."
+  },
+  {
+    "id": 5,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Plastic Pollution Control",
+    "category_name": "Environment",
+    "Donate": "$350.00",
+    "category_description": "Our mission is to control plastic pollution and protect the environment for a sustainable future. Join us in our efforts to preserve the planet for future generations by participating in this campaign."
+  },
+  {
+    "id": 6,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Education Support for Underprivileged Youth",
+    "category_name": "Education",
+    "Donate": "$300.00",
+    "category_description": "We aim to support underprivileged youth on their educational journey, offering hope and brighter prospects. Education is the key to breaking the cycle of poverty, and your contribution can be a catalyst for change."
+  },
+  {
+    "id": 7,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Food Supplies for Rural Communities",
+    "category_name": "Food",
+    "Donate": "$200.00",
+    "category_description": "We provide vital food supplies to rural communities, addressing their nutritional needs and fighting hunger. Together, we can ensure that no one in these regions goes to bed hungry."
+  },
+  {
+    "id": 8,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Healthcare for Elderly Residents",
+    "category_name": "Health",
+    "Donate": "$450.00",
+    "category_description": "Our campaign focuses on providing healthcare services to elderly residents, allowing them to enjoy a healthy and fulfilling life in their later years. Your support enhances their quality of life."
+  },
+  {
+    "id": 9,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Clean Water for Children",
+    "category_name": "Health",
+    "Donate": "$550.00",
+    "category_description": "Our commitment to providing clean water to underprivileged children is unwavering. We believe access to clean water is a basic human right, and we're actively working to make a difference in their lives. Join us in this noble cause."
+  },
+  {
+    "id": 10,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Education Support for Underprivileged Youth",
+    "category_name": "Education",
+    "Donate": "$400.00",
+    "category_description": "By supporting underprivileged youth in their educational journey, you can help open doors to a brighter future. Education is the key to empowerment, and your contribution can be a life-changing force."
+  },
+  {
+    "id": 11,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Plastic Pollution Control",
+    "category_name": "Environment",
+    "Donate": "$300.00",
+    "category_description": "We're on a mission to combat plastic pollution and ensure a sustainable future for our environment. Your involvement in this campaign is a step toward a cleaner and healthier planet."
+  },
+  {
+    "id": 12,
+    "image": "https://i.imgur.com/Tsf92OO.png",
+    "title": "Food Supplies for Rural Communities",
+    "category_name": "Food",
+    "Donate": "$250.00",
+    "category_description": "We supply food to rural communities, addressing their nutritional needs and ensuring that hunger is alleviated. Your support goes a long way in creating healthier and happier communities."
+  }
+]
