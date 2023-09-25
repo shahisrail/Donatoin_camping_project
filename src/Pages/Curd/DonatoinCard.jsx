@@ -1,5 +1,6 @@
+import Swal from "sweetalert2";
 const DonatoinCard = ({ card }) => {
-  const { id,image, category_description, title, Donate, } = card || {};
+  const { id, image, category_description, title, Donate } = card || {};
   const handelAddDonaite = () => {
     const addedDonaiteArray = [];
     const donatoinIteam = JSON.parse(localStorage.getItem("donaite"));
@@ -7,18 +8,29 @@ const DonatoinCard = ({ card }) => {
     if (!donatoinIteam) {
       addedDonaiteArray.push(card);
       localStorage.setItem("donaite", JSON.stringify(addedDonaiteArray));
-      alert("product added");
+     Swal.fire({
+       icon: "success",
+       title: "Great",
+       text: "Your donatoin is adde",
+     });
     } else {
       const isExits = donatoinIteam.find((card) => card.id === id);
-      if (!isExits){
-          addedDonaiteArray.push(...donatoinIteam, card);
-      localStorage.setItem("donaite", JSON.stringify(addedDonaiteArray));
-      alert("product added");
+      if (!isExits) {
+        addedDonaiteArray.push(...donatoinIteam, card);
+        localStorage.setItem("donaite", JSON.stringify(addedDonaiteArray));
+        Swal.fire({
+          icon: "success",
+          title: "Great",
+          text: "Your donatoin is adde",
+        });
+      } else {
+       Swal.fire({
+         icon: "error",
+         title: "Oops...",
+         text: "Duplicate are not allowed!",
+
+       });
       }
-      else {
-       console.log('alredy ase');
-      }
-     
     }
     // console.log(donatoinIteam);
     // console.log(card);

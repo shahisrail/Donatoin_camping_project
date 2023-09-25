@@ -19,22 +19,21 @@ const Card = ({ card }) => {
           <img className="w-full h-[40vh]" src={image} alt="" />
 
           <div className="p-5">
-            <a href="#">
-              <h5
-                style={{
-                  color: color_text,
-                  backgroundColor: color_button,
-                  fontSize: "20px", 
-                  border: "1px solid ", 
-                  borderRadius: "10px",
-                  padding: '5px',
-                  
-                }}
-                className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
-                {category_name}
-              </h5>
-            </a>
+            <h5
+              style={{
+                color: color_text,
+                backgroundColor: color_button,
+                fontSize: "20px",
+                border: "1px solid ",
+                borderRadius: "10px",
+                padding: "5px",
+                width: "absolute",
+              }}
+              className="mb-2 w-[43vh] lg:w-[18vh] text-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              {category_name}
+            </h5>
+
             <p
               style={{ color: color_text }}
               className="mb-3 font-normal text-gray-700 dark:text-gray-400"

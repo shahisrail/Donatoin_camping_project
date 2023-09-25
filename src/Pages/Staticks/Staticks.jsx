@@ -1,33 +1,32 @@
 import React, { PureComponent, useEffect, useState } from "react";
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
+import { PieChart, Pie, Sector, Cell, ResponsiveContainer, Legend } from "recharts";
 
 const Staticks = () => {
-  const [donates, setDonate] = useState(0)
+  const [donates, setDonate] = useState(0);
   const [totalDonaite, setTotalDonaite] = useState(4350);
   useEffect(() => {
-     let donate = 0;
-     const donatoinIteam = JSON.parse(localStorage.getItem("donaite"));
+    let donate = 0;
+    const donatoinIteam = JSON.parse(localStorage.getItem("donaite"));
     //  let remainingData = 0;
-     if (donatoinIteam) {
-       for (let item of donatoinIteam) {
-         donate += parseInt(item.Donate);
-         console.log(item.Donate);
-       }
+    if (donatoinIteam) {
+      for (let item of donatoinIteam) {
+        donate += parseInt(item.Donate);
+        console.log(item.Donate);
+      }
       //  const staticksvalue = 4350;
-       let remainingData = totalDonaite - donate;
-       setTotalDonaite(remainingData);
-       setDonate(donate)
-     }
-     console.log(donate);
-  }, [])
-  console.log(donates,totalDonaite);
+      let remainingData = totalDonaite - donate;
+      setTotalDonaite(remainingData);
+      setDonate(donate);
+    }
+    console.log(donate);
+  }, []);
+  console.log(donates, totalDonaite);
   const data = [
-    { name: "Group A", value: donates },
-    { name: "Group B", value: totalDonaite },
-    
+    { name: "Your Donation", value: donates },
+    { name: "Total Donation", value: totalDonaite },
   ];
 
-  const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
+  const COLORS = ["#00C49F", "#FF444A", "#FFBB28", "#FF8042"];
 
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
@@ -56,14 +55,15 @@ const Staticks = () => {
     );
   };
   return (
-    <PieChart width={400} height={400}>
+    <PieChart width={600} height={600} className="mx-auto">
       <Pie
         data={data}
         cx="50%"
         cy="50%"
         labelLine={false}
         label={renderCustomizedLabel}
-        outerRadius={80}
+        md:outerRadius={180}
+        outerRadius={100}
         fill="#8884d8"
         dataKey="value"
       >
@@ -71,6 +71,9 @@ const Staticks = () => {
           <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
         ))}
       </Pie>
+      <Legend>
+        
+       </Legend>
     </PieChart>
   );
 };

@@ -6,7 +6,7 @@ const Nav = () => {
     setMenuOpen(!menuOpen);
   };
   const links = (
-    <ul className="flex gap-2">
+    <ul className="flex  gap-2">
       <li>
         <NavLink to="/">Home</NavLink>
       </li>
@@ -21,7 +21,7 @@ const Nav = () => {
 
   return (
     <div className="navbar">
-      <div className="flex justify-between mx-auto container">
+      <div className="flex   justify-between mx-auto container">
         <div className="">
           <div className="dropdown">
             <label
@@ -54,10 +54,10 @@ const Nav = () => {
             </ul>
           </div>
           <a className="normal-case font-semibold text-[15px]">
-            <img src="/Resources/Logo.png" alt="" />
+            <img src="https://i.imgur.com/ZqVlniS.png" alt="" />
           </a>
         </div>
-        <div className="navbar-center hidden md:flex">
+        <div className="navbar-center hidden md:flex flex-col">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
       </div>
