@@ -1,5 +1,5 @@
 const DonatoinCard = ({ card }) => {
-  const { id,image, category_description, title, Donate } = card || {};
+  const { id,image, category_description, title, Donate, } = card || {};
   const handelAddDonaite = () => {
     const addedDonaiteArray = [];
     const donatoinIteam = JSON.parse(localStorage.getItem("donaite"));
