@@ -17,10 +17,10 @@ const Donatoinscard2 = ({ card }) => {
     <div>
       <div
         style={{ backgroundColor: color_card_bg }}
-        className="relative flex md:h-[40vh] flex-col w-full md:flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+        className="relative flex md:h-[40vh] p-3 md:p-0 flex-col w-full md:flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
       >
-        <div className="relative m-0 w-2/5 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
-          <img src={image} alt="image" className="h-full w-[120px] md:w-full object-cover" />
+        <div className="relative m-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+          <img src={image} alt="image" className="h-full  md:w-full object-cover" />
         </div>
         <div className="md:p-6">
           <h6
