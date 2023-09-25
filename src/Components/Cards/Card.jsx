@@ -5,7 +5,7 @@ const Card = ({ card }) => {
     <div>
       <Link to={`/cards/${id}`}>
         <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img className="w-full" src={image} alt="" />
+          <img className="w-full h-[40vh]" src={image} alt="" />
 
           <div className="p-5">
             <a href="#">

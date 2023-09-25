@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "https://i.imgur.com/Tsf92OO.png",
+    "image": "https://i.imgur.com/3xMkbjN.png",
     "title": "Education Support for Underprivileged Youth",
     "category_name": "Education",
     "Donate": "$350.00",
@@ -17,23 +17,24 @@
   },
   {
     "id": 3,
-    "image": "https://i.imgur.com/Tsf92OO.png",
-    "title": "Healthcare for Elderly Residents",
-    "category_name": "Health",
+    "image": "https://i.imgur.com/i67KNUD.png",
+    "title": "Plastic Pollution Control",
+    "category_name": "Environment",
     "Donate": "$300.00",
-    "category_description": "In this campaign, we provide essential healthcare services to elderly residents, allowing them to live a healthy and fulfilling life during their golden years. Your support ensures their well-being and comfort as they age gracefully."
+    "category_description": "We're on a mission to combat plastic pollution and ensure a sustainable future for our environment. Your involvement in this campaign is a step toward a cleaner and healthier planet."
   },
   {
     "id": 4,
-    "image": "https://i.imgur.com/Tsf92OO.png",
+    "image": "https://i.imgur.com/nTvOUP2.png",
     "title": "Food Supplies for Rural Communities",
     "category_name": "Food",
     "Donate": "$400.00",
     "category_description": "We supply much-needed food to rural communities, addressing their nutritional needs and ensuring that hunger is alleviated. Your contribution helps us combat food insecurity in these underserved regions."
+    
   },
   {
     "id": 5,
-    "image": "https://i.imgur.com/Tsf92OO.png",
+    "image": "https://i.imgur.com/i67KNUD.png",
     "title": "Plastic Pollution Control",
     "category_name": "Environment",
     "Donate": "$350.00",
@@ -41,7 +42,7 @@
   },
   {
     "id": 6,
-    "image": "https://i.imgur.com/Tsf92OO.png",
+    "image": "https://i.imgur.com/3xMkbjN.png",
     "title": "Education Support for Underprivileged Youth",
     "category_name": "Education",
     "Donate": "$300.00",
@@ -49,7 +50,7 @@
   },
   {
     "id": 7,
-    "image": "https://i.imgur.com/Tsf92OO.png",
+    "image": "https://i.imgur.com/nTvOUP2.png",
     "title": "Food Supplies for Rural Communities",
     "category_name": "Food",
     "Donate": "$200.00",
@@ -73,7 +74,7 @@
   },
   {
     "id": 10,
-    "image": "https://i.imgur.com/Tsf92OO.png",
+    "image": "https://i.imgur.com/3xMkbjN.png",
     "title": "Education Support for Underprivileged Youth",
     "category_name": "Education",
     "Donate": "$400.00",
@@ -81,7 +82,7 @@
   },
   {
     "id": 11,
-    "image": "https://i.imgur.com/Tsf92OO.png",
+    "image": "https://i.imgur.com/i67KNUD.png",
     "title": "Plastic Pollution Control",
     "category_name": "Environment",
     "Donate": "$300.00",
@@ -89,7 +90,7 @@
   },
   {
     "id": 12,
-    "image": "https://i.imgur.com/Tsf92OO.png",
+    "image": "https://i.imgur.com/nTvOUP2.png",
     "title": "Food Supplies for Rural Communities",
     "category_name": "Food",
     "Donate": "$250.00",
