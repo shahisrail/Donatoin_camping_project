@@ -13,7 +13,7 @@ const Staticks = () => {
         donate += parseInt(item.Donate);
         console.log(item.Donate);
       }
-      //  const staticksvalue = 4350;
+    //  this is 
       let remainingData = totalDonaite - donate;
       setTotalDonaite(remainingData);
       setDonate(donate);
