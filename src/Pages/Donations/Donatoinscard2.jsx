@@ -14,7 +14,7 @@ const Donatoinscard2 = ({ card }) => {
   } = card || {};
 
   return (
-    <div>
+    <div className="p-5">
       <div
         style={{ backgroundColor: color_card_bg }}
         className="relative flex md:h-[40vh] p-3 md:p-0 flex-col w-full md:flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
