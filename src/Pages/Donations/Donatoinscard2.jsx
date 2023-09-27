@@ -17,11 +17,11 @@ const Donatoinscard2 = ({ card }) => {
     <div>
       
       <div
-        className="card p-2 lg:card-side md:h-[100vh] lg:h-auto bg-base-100 shadow-xl"
+        className="card p-2 grid grid-cols-1 lg:grid-cols-2  lg:card-side md:h-[100vh] lg:h-auto bg-base-100 shadow-xl"
         style={{ backgroundColor: color_card_bg }}
       >
         <figure className=" w-50  ">
-          <img className="h-35 lg:h-[35vh] w-50 items-center" src={image} alt="Album" />
+          <img className="h-35 lg:h-[35vh]  items-center" src={image} alt="Album" />
         </figure>
         <div className="card-body">
           <div className="card-actions justify-start">

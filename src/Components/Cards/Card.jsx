@@ -22,7 +22,7 @@ const Card = ({ card }) => {
           
             <div className="card-actions justify-start">
               <div
-                className="p-1 rounded "
+                className="p-1 rounded font-bold "
                 style={{
                   color: color_text,
                   backgroundColor: color_button,
@@ -31,6 +31,7 @@ const Card = ({ card }) => {
                   borderRadius: "10px",
                   padding: "5px",
                   width: "absolute",
+                  
                 }}
               >
                 {category_name}
