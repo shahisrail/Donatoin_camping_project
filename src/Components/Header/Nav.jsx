@@ -26,7 +26,7 @@ const Nav = () => {
           <div className="dropdown">
             <label
               tabIndex={0}
-              className="btn btn-ghost md:hidden"
+              className="btn btn-ghost lg:hidden"
               onClick={toggleMenu}
             >
               <svg
