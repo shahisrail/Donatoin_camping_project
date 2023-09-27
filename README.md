@@ -21,7 +21,7 @@
  
 #### Step 5: 
 Success and Error Modals
-####5.1. 
+#### 5.1. 
 Create modal components to display success and error messages. You can use libraries like react-modal for this.
 
 #### Step 6:
