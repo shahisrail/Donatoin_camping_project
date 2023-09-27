@@ -13,6 +13,10 @@ const Donations = () => {
   }, []);
 
   const renderDonationItems = () => {
+    if (donaites.length === 0) {
+      return <p>No data found</p>;
+    }
+
     if (showMore) {
       return donaites.map((card) => (
         <Donatoinscard2 key={card.id} card={card}></Donatoinscard2>
@@ -33,7 +37,7 @@ const Donations = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-5 max-w-7xl mx-auto">
         {renderDonationItems()}
       </div>
       {!showMore && donaites.length > 4 && (

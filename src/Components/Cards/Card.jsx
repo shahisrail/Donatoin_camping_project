@@ -19,20 +19,23 @@ const Card = ({ card }) => {
           <img className="w-full h-[40vh]" src={image} alt="" />
 
           <div className="p-5">
-            <h5
-              style={{
-                color: color_text,
-                backgroundColor: color_button,
-                fontSize: "20px",
-                border: "1px solid ",
-                borderRadius: "10px",
-                padding: "5px",
-                width: "absolute",
-              }}
-              className="mb-2 w-[43vh] lg:w-[18vh] text-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-            >
-              {category_name}
-            </h5>
+          
+            <div className="card-actions justify-start">
+              <div
+                className="p-1 rounded "
+                style={{
+                  color: color_text,
+                  backgroundColor: color_button,
+
+                  border: "1px solid ",
+                  borderRadius: "10px",
+                  padding: "5px",
+                  width: "absolute",
+                }}
+              >
+                {category_name}
+              </div>
+            </div>
 
             <p
               style={{ color: color_text }}

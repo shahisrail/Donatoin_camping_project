@@ -1,5 +1,12 @@
 import React, { PureComponent, useEffect, useState } from "react";
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer, Legend } from "recharts";
+import {
+  PieChart,
+  Pie,
+  Sector,
+  Cell,
+  ResponsiveContainer,
+  Legend,
+} from "recharts";
 
 const Staticks = () => {
   const [donates, setDonate] = useState(0);
@@ -10,10 +17,10 @@ const Staticks = () => {
     //  let remainingData = 0;
     if (donatoinIteam) {
       for (let item of donatoinIteam) {
-        donate += parseInt(item.Donate);
+        donate += parseFloat(item.Donate);
         console.log(item.Donate);
       }
-    //  this is 
+      //  this is
       let remainingData = totalDonaite - donate;
       setTotalDonaite(remainingData);
       setDonate(donate);
@@ -55,7 +62,7 @@ const Staticks = () => {
     );
   };
   return (
-    <PieChart width={600} height={600} className="mx-auto">
+    <PieChart width={380} height={380} className="mx-auto">
       <Pie
         data={data}
         cx="50%"
@@ -63,7 +70,6 @@ const Staticks = () => {
         labelLine={false}
         label={renderCustomizedLabel}
         md:outerRadius={180}
-        outerRadius={100}
         fill="#8884d8"
         dataKey="value"
       >
@@ -71,9 +77,7 @@ const Staticks = () => {
           <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
         ))}
       </Pie>
-      <Legend>
-        
-       </Legend>
+      <Legend></Legend>
     </PieChart>
   );
 };

@@ -6,7 +6,7 @@ const Nav = () => {
     setMenuOpen(!menuOpen);
   };
   const links = (
-    <ul className="flex  gap-2">
+    <ul className="flex flex-col justify-between  lg:flex-row gap-2">
       <li>
         <NavLink to="/">Home</NavLink>
       </li>
@@ -22,11 +22,11 @@ const Nav = () => {
   return (
     <div className="navbar">
       <div className="flex   justify-between mx-auto container">
-        <div className="">
+        <div className="flex">
           <div className="dropdown">
             <label
               tabIndex={0}
-              className="btn btn-ghost lg:hidden"
+              className="btn btn-ghost md:hidden"
               onClick={toggleMenu}
             >
               <svg
@@ -57,8 +57,8 @@ const Nav = () => {
             <img src="https://i.imgur.com/ZqVlniS.png" alt="" />
           </a>
         </div>
-        <div className="navbar-center hidden md:flex flex-col">
-          <ul className="menu menu-horizontal px-1">{links}</ul>
+        <div className="navbar-center hidden  lg:block">
+          <ul className="menu menu-horizontal px-1 ">{links}</ul>
         </div>
       </div>
     </div>

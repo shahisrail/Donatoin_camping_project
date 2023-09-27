@@ -1,17 +1,21 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Cards from "../../Components/Cards/Cards";
 import { useLoaderData } from "react-router-dom";
 
 const Homes = () => {
   const cards = useLoaderData();
-const [full, setFull] = useState(cards);
+  const [full, setFull] = useState(cards);
 
   const [search, setSearch] = useState(cards);
+
   const handleSearch = () => {
     const input = document.getElementById("default_search");
-    const search = input.value;
+    const search = input.value.toLowerCase(); // Convert the search query to lowercase
+
     if (search.length > 0) {
-      const newData = full.filter((item) => item.category_name == search);
+      const newData = full.filter(
+        (item) => item.category_name.toLowerCase() === search
+      ); // Convert category name to lowercase for comparison
 
       if (newData) {
         setSearch(newData);
@@ -21,6 +25,7 @@ const [full, setFull] = useState(cards);
     }
     console.log(search);
   };
+
   return (
     <div>
       <div className="">
@@ -52,7 +57,8 @@ const [full, setFull] = useState(cards);
                     placeholder="Search Mockups, Logos..."
                     required
                   />
-                  <button onClick={handleSearch}
+                  <button
+                    onClick={handleSearch}
                     type="submit"
                     className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover-bg-blue-700 dark:focus-ring-blue-800"
                   >

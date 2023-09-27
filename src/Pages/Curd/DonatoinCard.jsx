@@ -1,6 +1,7 @@
 import Swal from "sweetalert2";
 const DonatoinCard = ({ card }) => {
-  const { id, image, category_description, title, Donate } = card || {};
+  const { id, image, category_description, title, Donate, color_text } =
+    card || {};
   const handelAddDonaite = () => {
     const addedDonaiteArray = [];
     const donatoinIteam = JSON.parse(localStorage.getItem("donaite"));
@@ -50,7 +51,11 @@ const DonatoinCard = ({ card }) => {
             className="absolute p-5 bottom-0 left-0 w-full"
             style={{ background: "rgba(11, 11, 11, 0.50)" }}
           >
-            <button onClick={handelAddDonaite} className="btn">
+            <button
+              style={{ backgroundColor: color_text, color:"white"}}
+              onClick={handelAddDonaite}
+              className="btn"
+            >
               Donate{Donate}
             </button>
           </div>
